@@ -25,19 +25,19 @@ SECRET_KEY = 'hoos3$ixxcv!9d4u#!^vlj+f!kgo4%fed8hw-*2-0m_vom@lx4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'selection.apps.SelectionConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'selection'
 ]
 
 MIDDLEWARE = [
