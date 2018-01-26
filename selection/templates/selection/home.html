@@ -9,6 +9,10 @@
         </div>
         <div class="class-select-box">
             <h2>Pick your classes</h2>
+            <form action="" method="post">{% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </body>
 </html>
