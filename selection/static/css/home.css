@@ -5,8 +5,16 @@
 }
 
 .class-select-box {
-    padding-left
+    text-align: center;
+    float: left;
     width: 250px;
     height: 500px;
     background-color: #FF671F;
+}
+
+.schedule-box {
+    text-align: center;
+    float: left;
+    width: 250px;
+    height: 500px;
 }
