@@ -6,8 +6,8 @@ from django.views.generic import FormView, CreateView
 
 def home(request):
     # template_name = 'select_class.html'
-
-    return render(request, 'selection/home.html')
+    form = SubjectForm()
+    return render(request, 'selection/home.html', {'form': form})
 
 class CreateSubjectDropdown(CreateView):
     model = SubjectDropdown
