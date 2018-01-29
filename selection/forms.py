@@ -8,8 +8,14 @@ SUBJECTS = (
 )
 
 class SubjectForm(forms.ModelForm):
-    # subject_choice = forms.CharField(lable="Subject:", widget=forms.Select(choices=SUBJECTS))
+    # subject_choice = forms.CharField(label="Subject:", widget=forms.Select(choices=SUBJECTS))
 
     class Meta:
         model = SubjectDropdown
         fields = ['subject']
+
+class TimeForm(forms.ModelForm):
+
+    class Meta:
+        model = SubjectDropdown
+        fields = ['time']
