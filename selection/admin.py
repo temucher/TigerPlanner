@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import SubjectDropdown
+from .models import ClassData
 
 # Register your models here.
 
-admin.site.register(SubjectDropdown)
+admin.site.register(ClassData)

@@ -11,11 +11,14 @@
         <div class="class-select-box">
             <h2>Pick your classes</h2>
             <form action="" method="post">{% csrf_token %}
-                {{ form.as_p }}
+                {{ subject_form.as_p }}
             </form>
             <form action="" method="post">{% csrf_token %}
-                {{ t_form.as_p }}
-                <button type="submit">She got a big booty so I call her big booty</button>
+                {{ isgn_form.as_p }}
+            </form>
+            <form action="" method="post">{% csrf_token %}
+                {{ time_form.as_p }}
+                <button type="submit">Hit it</button>
             </form>
         </div>
         <div class="schedule-box">
